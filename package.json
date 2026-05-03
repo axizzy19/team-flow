@@ -1,0 +1,25 @@
+{
+  "name": "team-flow",
+  "version": "1.0.0",
+  "description": "Возможность создание проектов с названием, описанием, сроками. \\\r Создание и распределение задач внутри проекта среди членов команды с указанием дедлайна, статуса и приоритета. \\\r Возможность редактировать существующие задачи. \\\r Система комментариев внутри каждой задачи. \\\r Функция уведомления об изменениях в задачах и приближающихся дедлайнах. \\\r Отображение прогресса по задачам с помощью Канбан-доски. \\\r Настройка прав доступа.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axizzy19/team-flow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/axizzy19/team-flow/issues"
+  },
+  "homepage": "https://github.com/axizzy19/team-flow#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemailer": "^8.0.7"
+  }
+}
